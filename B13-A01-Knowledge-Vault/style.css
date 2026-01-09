@@ -26,6 +26,14 @@
 }
 .nav_bar ul a{
     text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 200px;
+    font-size: 20px;
+}
+.image_container_header .color_coded{
+    color: #30B868;
+    margin-top: 0px;
 }
 .button{
     margin-left: 346px;
@@ -36,6 +44,14 @@
     justify-content: center;
      
 }
+.image_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+   gap: 16px;
+   
+}
+
 .btn{
     margin-top: 24px;
     margin-bottom: 24px;
@@ -45,6 +61,53 @@
     background-color: #30B868;
     border: none;
    font-weight: bold;
+   font-size: 16px;
+   
+}
+.btn:hover{
+     margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    color: #e08d2f;
+    background-color: rgb(63, 12, 53);
+    border: none;
+   font-weight: bold;
+   font-size: 16px;
+   cursor: pointer;
+}
+.btn1{
+     margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+     border: none;
+   font-weight: bold;
+   font-size: 16px;
+   background-color:transparent;
+   color: white;
+   border: 1px solid white;
+   cursor:pointer;
+}
+.btn1:hover{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+     border: none;
+   font-weight: bold;
+   font-size: 16px;
+   background-color:transparent;
+   color: rgb(255, 255, 255);
+   border: 1px solid rgb(37, 214, 21);
+}
+.btn_inside{
+   
+    align-items: center;
+    justify-content: center;
+}
+.btn_inside img{
+    padding-top: 7px;
 }
 .font-inter{
     font-style:"inter";
@@ -58,14 +121,16 @@
     border: 2px solid black;
 }
 .image_container_header{
-    margin:120px 115.5px;
-    border: 2px solid white;
+    margin:116.5px  415px 0px;
+ 
+    text-align: center;
 }
 .image_container_header h1{
-    padding:51px 295px;
+    
     color: white;
     font-size: 75px;
-    border: 2px solid white;
+
+   
 }
 .image_container_header p{
     color: white;
@@ -73,7 +138,7 @@
     line-height: 24px;
 }
 .second_tier_container{
-    border: 2px solid rgb(141, 9, 9);
+   
     height: 152px;
     margin: 0px 120px;
     display: grid;
@@ -99,7 +164,7 @@
 .card_items{
    height: 300px;
    width: 322px;
-   box-shadow: 1px 2px 2px 3px rgba(0,0,0,0.5);
+   box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.1);
    text-align: center;
 }
 .card_items .img_container{
@@ -128,7 +193,7 @@
 .third_tier_container{
     height: 600px;
     margin: 120px 120px;
-     border: 2px solid black;
+  
      display: flex;
 }
 .third_tier_container_first_div{
@@ -186,12 +251,12 @@
 }
 .Fourth_tier_container h1{
     padding: 80px 40px 16px 40px;
-    border: 2px solid black;
+  
 }
 .Fourth_tier_container small{
     height: 48px;
     line-height: 24px;
-    border: 2px solid black;
+    
 }
 .Fourth_tier_container p{
     margin:16px 40px 80px 40px ;
