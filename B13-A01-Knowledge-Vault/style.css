@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ .icon{
+    margin:16px 120px;
+  
+}
+.header_container{
+    display: flex;
+
+}
+.nav_bar{
+    margin-left:346px ;
+   
+    display: flex;
+   align-items: center;
+
+}
+.nav_bar ul {
+    display: flex;
+    padding: 0px 34px;
+    list-style: none;
+    gap: 32px;
+}
+.nav_bar ul a{
+    text-decoration: none;
+}
+.button{
+    margin-left: 346px;
+
+}
+.btn{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    color: white;
+    background-color: #30B868;
+    border: none;
+   font-weight: bold;
+}
+.font-inter{
+    font-style:"inter";
+}
+.header_image_container{
+    height: 664px;
+    width: 100%;
+    background-image: url("assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+}
+.image_container_header{
+    margin:120px 115.5px;
+    border: 2px solid white;
+}
+.image_container_header h1{
+    padding:51px 295px;
+    color: white;
+    font-size: 75px;
+    border: 2px solid white;
+}
+.image_container_header p{
+    color: white;
+    padding:16px 295px;
+    line-height: 24px;
+}
+.second_tier_container{
+    border: 2px solid rgb(141, 9, 9);
+    height: 152px;
+    margin: 0px 120px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.second_tier_container h1{
+    margin-top: 65px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+   margin-bottom: 10px;
+}
+.card_container{
+    display: flex;
+    border: 2px solid black;
+    height: 300px;
+    margin: 44px 120px;
+}
+.card_items{
+   
+}
+.third_tier_container{
+    height: 600px;
+    margin: 120px 120px;
+     border: 2px solid black;
+     display: flex;
+}
+.third_tier_container_first_div{
+    width: 600px;
+     
+     
+}
+.third_tier_container img{
+    background-size: cover;
+    height: 590px;
+}
+.the_solution_class{
+    display: flex;
+}
+.the_solution_class img{
+    height: 16.25px;
+    width: 16.25px;
+}
+.the_solution_class p{
+    font-weight: 900px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.third_tier_container_second_div{
+    margin: 102px 60px;
+    border: 2px solid black;
+}
+.third_tier_container_second_div h6{
+    
+       line-height: 16px;
+       font-size: 15px;
+       font-weight:300px ;
+       color: #30B868;
+}
+.third_tier_container_second_div h1{
+     padding-top: 16px;
+}
+.third_tier_container_second_div 
+/* .nav_bar ul{
+    margin-left: 605px;
+    margin-top: 34px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.nav_bar li{
+    list-style: none;
+}
+.btn{
+    margin-right: 120px;
+} */
