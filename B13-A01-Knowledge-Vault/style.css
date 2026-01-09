@@ -29,7 +29,12 @@
 }
 .button{
     margin-left: 346px;
-
+   
+}
+.button1{
+    display: flex;
+    justify-content: center;
+     
 }
 .btn{
     margin-top: 24px;
@@ -85,12 +90,40 @@
 }
 .card_container{
     display: flex;
-    border: 2px solid black;
     height: 300px;
     margin: 44px 120px;
+    gap: 24px;
+    justify-content: space-between;
 }
+
 .card_items{
-   
+   height: 300px;
+   width: 322px;
+   box-shadow: 1px 2px 2px 3px rgba(0,0,0,0.5);
+   text-align: center;
+}
+.card_items .img_container{
+    background-color: #F95555;
+    height: 60px;
+    width: 60px;
+    margin: 61.5px 131px 0px 131px ;
+    border-radius: 50%;
+}
+.card_items h3{
+    font-weight: 1200px;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.card_items p{
+    padding: 10px;
+    font-weight: 30px;
+}
+.img_container img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 14px;
 }
 .third_tier_container{
     height: 600px;
@@ -121,7 +154,7 @@
 }
 .third_tier_container_second_div{
     margin: 102px 60px;
-    border: 2px solid black;
+   
 }
 .third_tier_container_second_div h6{
     
@@ -133,17 +166,64 @@
 .third_tier_container_second_div h1{
      padding-top: 16px;
 }
-.third_tier_container_second_div 
-/* .nav_bar ul{
-    margin-left: 605px;
-    margin-top: 34px;
+
+.third_tier_container_second_div_P{
+     line-height: 20px;
+     padding-top: 16px;
+}
+.third_tier_container_second_div_checkbox{
+    margin-top: 40px;
+}
+.third_tier_container_second_div_checkbox .the_solution_class{
+    margin-top: 16px;
+}
+.Fourth_tier_container{
+    margin:120px 120px;
+    background-color: #F7F6F2;
+    height: 384px;
+    display: grid;
+    justify-content: center;
+}
+.Fourth_tier_container h1{
+    padding: 80px 40px 16px 40px;
+    border: 2px solid black;
+}
+.Fourth_tier_container small{
+    height: 48px;
+    line-height: 24px;
+    border: 2px solid black;
+}
+.Fourth_tier_container p{
+    margin:16px 40px 80px 40px ;
+}
+footer{
+    height: 348px;
+    background-color: #001931;
+}
+.footer_container{
+    display: grid;
+}
+.footer_container_upper{
     display: flex;
-    gap: 10px;
-    align-items: center;
+    
+    margin: 120px 80px 0px;
+    justify-content: space-between;
 }
-.nav_bar li{
-    list-style: none;
+.footer_container_upper .icons p{
+    color: white;
+    padding-right: 107px;
+    margin-bottom: 16px;
 }
-.btn{
-    margin-right: 120px;
-} */
+.footer_container_upper .icons{
+    height: 64px;
+    width: 220px;
+  
+    color: white;
+}
+.footer_container_lower{
+    color: white;
+   margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    
+}
