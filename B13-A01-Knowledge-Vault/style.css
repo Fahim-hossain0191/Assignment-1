@@ -248,18 +248,21 @@
     height: 384px;
     display: grid;
     justify-content: center;
+   
 }
 .Fourth_tier_container h1{
     padding: 80px 40px 16px 40px;
+     font-size: 40px;
   
 }
 .Fourth_tier_container small{
     height: 48px;
     line-height: 24px;
-    
+    padding-left: 70px;
 }
 .Fourth_tier_container p{
     margin:16px 40px 80px 40px ;
+    padding-left: 70px;
 }
 footer{
     height: 348px;
